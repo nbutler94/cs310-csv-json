@@ -115,13 +115,7 @@ public class Converter {
                 }
                          
                 
-                
-                
                 mainData.add(rowData);
-                
-                
-                
-                
                 
             }
             
@@ -248,7 +242,6 @@ public class Converter {
                     dataRows[j] = dataValues.get(j).toString();
                     
                     row[j+1] = dataRows[j];
-                    
                 }
                 // Finally, now that the next row has been built, output it to
                 // the CSV writer.
